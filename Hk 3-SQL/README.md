@@ -1,6 +1,19 @@
 # Homework 3: SQL practise
 In this homework, you are required to answer the following questions using SQL queries. You can connect to our toy database server via this [guidline](https://github.com/shsjxzh/db19-server-access/blob/master/README.md). Please save both your SQL queries and the query results from the database server for further verification.
 
+Note that you can store all your SQL queries in a txt ﬁle (e.g., query.txt, end each SQL with a semicolon and separate each SQL query with an empty line), and execute them all in once by "source query.txt" (if you are using the mysql client to connect to the DB server). An example of query.txt with 3 queries is given below:
+
+```sql
+Select * from student;
+
+Select dname
+from
+dept;
+
+Select * from major;
+```
+
+
 To capture the query results from the database server in Unix/Linux, you can use the "script" command. In particular, when you are ready to execute all your queries from query.txt. Do the followings:
 
 1)	script output.txt

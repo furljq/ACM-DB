@@ -57,7 +57,7 @@ Consider the following schemas, that are available from our database server in t
 Consider the following relational database schema. An employee can work in more than one department; the ***pct_time*** ﬁeld of the Works relation shows the percentage of time that a given employee works in a given department. Each department has exactly one manager.
 
     Emp({eid} int, ename varchar(30), age int, salary float)
-    Works({eid int, did} int, pct time float)
+    Works({eid int, did} int, pct_time float)
     Dept({did} int, budget float, managerid int foreign key references Emp(eid))
 
 Write SQL to express the following integrity constraints (domain, key, foreign key, column or table constraint, and assertion, choose the one that you think is the most appropriate).

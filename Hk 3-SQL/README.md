@@ -1,6 +1,14 @@
 # Homework 3: SQL practise
 In this homework, you are required to answer the following questions using SQL queries. You can connect to our toy database server via this [guidline](https://github.com/shsjxzh/db19-server-access/blob/master/README.md). Please save both your SQL queries and the query results from the database server for further verification.
 
+To capture the query results from the database server in Unix/Linux, you can use the "script" command. In particular, when you are ready to execute all your queries from query.txt. Do the followings:
+
+1)	script output.txt
+2)	connect to the DB server and "source query.txt;"
+3)	quit the server by "quit" or "exit".
+4)	type ctrl+d to end the scripting process.
+5)	all screen printout will be captured in output.txt.
+
 ## Problem 1. [80pts]
 Consider the following schemas, that are available from our database server in the acmdb database (acmdb).
 

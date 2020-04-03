@@ -4,7 +4,7 @@
 
 **Due: Fri, April 10th, 12:55 PM**
 
-**Note** : TA has upload a new `TupleTest.java` file (which is in this folder). Please use that for self-verification.
+**Note** : TA has upload a new `TupleTest.java` file (which is in this folder). Please replace the old one and use this for self-verification.
 
 ##  1. Implementation Hints 
 

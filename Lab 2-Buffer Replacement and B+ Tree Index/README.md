@@ -34,6 +34,8 @@ $ tar -xvzf acmdb-lab2-supplement.tar.gz
 
 **Note**: Intellij/Eclipse users will take one more step for their code to compile: add new libraries `zql.jar` and `jline-0.9.94.jar` in your project.
 
+By the way, you should also make minor changes on azure-pipelines.yml (change `acmdb-lab1` to `acmdb-lab2`).
+
 ### 1.1. Implementation hints
 As before, we **strongly encourage** you to read through this entire document to get a feel for the high-level design of SimpleDB before you write code.
 

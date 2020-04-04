@@ -4,6 +4,8 @@
 
 **Due: Fri, May 1st, 12:55 PM**
 
+**Note**: Please comment lines 43 to 78 of file `EvictionTest.java` (but do not delete them!) to pass the test. These code are used in future labs.
+
 ##  0. Introduction 
 
 In this lab you will implement the page replacement procedure in the buffer and a B+ tree index for efficient lookups and range scans. We supply you with all of the low-level code you will need to implement the tree structure. You will implement searching, splitting pages, redistributing tuples between pages, and merging pages.

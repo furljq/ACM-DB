@@ -188,6 +188,8 @@ In `mergeLeafPages()` and `mergeInternalPages()` you will implement code to merg
 
 Now you should be able to pass all unit tests in `BTreeFileDeleteTest.java` and the system tests in `systemtest/BTreeFileDeleteTest.java`.
 
+**Note:** To pass all the system test in this lab, you should also complete `insertTuple()` and `deleteTuple()` function in `HeapPage.java` and `BufferPool.java`.
+
 You have now completed this lab. Good work!
 
 
